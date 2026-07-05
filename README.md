@@ -23,7 +23,7 @@
 
 ## ✨ 功能
 
-当你在 **Claude Code** 中遇到需要深度思考的问题时，调用 `/super-thinking`，AI 将：
+当你在 Claude Code 或其他兼容 AI Agent 中遇到需要深度思考的问题时，调用 `/super-thinking`，AI 将：
 
 1. 理解你的问题/困境
 2. 从 **97 个模型 × 400+ 场景** 中找到最匹配的 **3 个模型**
@@ -46,8 +46,8 @@
 
 ### 前提
 
-- 安装 [Claude Code](https://claude.ai/code)
-- 确保 `.agents/skills` 目录已配置
+- 安装 Claude Code、[Amp](https://github.com/joshwa/amp) 或其他兼容的 AI Agent 工具
+- 确保你的 skills 目录已配置（如 `.agents/skills`、`~/.claude/skills` 或对应工具的 skills 文件夹）
 
 ### 方法一：直接安装
 
@@ -312,4 +312,4 @@ MIT License — 你可以自由使用、修改、分享。
 - **Charlie Munger** — 多元思维模型的倡导者
 - **Gabriel Weinberg & Lauren McCann** —《Super Thinking》的作者，系统地整理了 97 个思维模型
 - **Rolf Dobelli** —《The Art of Thinking Clearly》作者，姊妹项目的思想来源
-- **Claude Code Skills** — 让 AI 可以拥有结构化思维的工具
+- **[book-to-skill](https://github.com/apple-ouyang/book-to-skill)** — 将书籍转化为 AI Agent 可执行 Skill 的开源项目
