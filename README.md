@@ -46,7 +46,7 @@
 
 ### 前提
 
-- 安装 Claude Code、[Amp](https://github.com/joshwa/amp) 或其他兼容的 AI Agent 工具
+- 安装 Claude Code 或其他兼容的 AI Agent 工具
 - 确保你的 skills 目录已配置（如 `.agents/skills`、`~/.claude/skills` 或对应工具的 skills 文件夹）
 
 ### 方法一：直接安装
